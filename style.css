@@ -13,8 +13,6 @@ Tags: website, Template, Donation, Donate, Disarter, Diseater Management Etc. */
     box-sizing: border-box;
 }
 
-body {}
-
 h1,
 h2,
 h3,
@@ -167,6 +165,12 @@ header:after {
     color: #fff;
 }
 
+
+/* Header Style End Here  */
+
+
+/* Donate Amount Style Start Here  */
+
 .donate-today-area {
     width: 100%;
     margin-bottom: 100px;
@@ -252,6 +256,9 @@ header:after {
     background-color: #FFEEEE;
 }
 
+
+/* Donate Amount Style Start Here  */
+
 .donate-plan-area {
     width: 100%;
     margin-bottom: 200px;
@@ -319,6 +326,9 @@ header:after {
     background-color: #FFF4D6;
 }
 
+
+/* Feature Post Area Start Here  */
+
 .feature-post-area {
     width: 100%;
     margin-bottom: 100px;
@@ -368,6 +378,12 @@ header:after {
     width: 100%;
     border-radius: 5px;
 }
+
+
+/* Feature Post Area End Here  */
+
+
+/* Doners Area Start Here */
 
 .doners-area {
     width: 100%;
@@ -479,6 +495,12 @@ header:after {
     border-radius: 50%;
 }
 
+
+/* Doners Area Start Here  */
+
+
+/* Update Area Start Here */
+
 .update-area {
     width: 100%;
     margin-bottom: 200px;
@@ -533,6 +555,12 @@ header:after {
     margin: 10px 0 16px 0;
 }
 
+
+/* Update Area End Here  */
+
+
+/* Footer Area Start Here  */
+
 .footer-area {
     width: 100%;
     height: auto;
@@ -586,3 +614,6 @@ header:after {
     background-color: #FF5959;
     color: #fff;
 }
+
+
+/* Footer Area End Here  */

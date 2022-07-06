@@ -5,4 +5,5 @@ Nav List er Padding Komate Hobe
 % Percentage E Migrage korte Hobe
 Introduction add korte Hobe
 Button E Gradient Color Dite Hobe
-
+Donate Amount Button e Problem fix korte hobe
+Firs Ipute e Form add korte hobe

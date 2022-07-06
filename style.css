@@ -309,6 +309,107 @@ header:after {
     border-radius: 5px;
 }
 
+.doners-area {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.doners-title {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.doners-title h2 {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.doners-title p {
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.doners {
+    width: 80%;
+    margin-left: 190px;
+}
+
+.doner-single {
+    width: 25%;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin-left: 80px;
+}
+
+.doner-single-title h3::before {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background-color: #BDD1DF;
+    border-radius: 50%;
+    margin: 0px 0px 0px -100px;
+    background-image: url("doners/Jhankar-Mahbub.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.doner-single-title {
+    width: 100%;
+    float: left;
+}
+
+.doner-single-title h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.doner-single-title h3 span {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.doner-single-title p {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.doner-single-title p span {
+    display: block;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.doner-social {
+    width: 100%;
+    float: left;
+}
+
+.doner-social ul li {
+    display: inline-block;
+    margin-right: 10px;
+    list-style: none;
+}
+
+.doner-social ul li a i {
+    padding: 5px;
+    font-size: 10px;
+    background-color: #707070;
+    color: #fff;
+}
+
 .update-area {
     width: 100%;
     margin-bottom: 200px;
@@ -369,6 +470,7 @@ header:after {
 }
 
 .footer-title h2 {
+    font-family: 'Lobster', cursive;
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
@@ -378,8 +480,6 @@ header:after {
 .footer-title p {
     margin-bottom: 30px;
 }
-
-.footer-nav ul {}
 
 .footer-nav ul li {
     list-style: none;
@@ -394,7 +494,7 @@ header:after {
     text-decoration: none;
 }
 
-.footer-nav ul li a i {
+i {
     border: 1px solid #fff;
     padding: 8px;
     border-radius: 50%;
@@ -405,7 +505,7 @@ header:after {
     transition: 0.3s;
 }
 
-.footer-nav ul li a i:hover {
+i:hover {
     background-color: #FF5959;
     color: #fff;
     border: 1px solid #FF5959;

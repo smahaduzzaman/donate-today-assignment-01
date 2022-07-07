@@ -336,8 +336,11 @@ header:after {
 /* Feature Post Area Start Here  */
 
 .feature-post-area {
+    background-color: #0B0D17;
+    color: #fff;
     width: 100%;
     margin-bottom: 100px;
+    padding-top: 100px;
 }
 
 .single-post {

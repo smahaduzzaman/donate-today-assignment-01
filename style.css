@@ -551,12 +551,16 @@ header:after {
 .update-form input[type="submit"] {
     padding: 15px 30px;
     border: none;
-    background-color: #FF5959;
+    background-image: linear-gradient(to right, #FF5959, darkorange);
     outline: none;
     font-size: 15px;
     font-weight: 500;
     color: #fff;
     margin: 10px 0 16px 0;
+}
+
+.update-form input[type="submit"]:hover {
+    background-image: linear-gradient(to right, darkorange, #FF5959);
 }
 
 

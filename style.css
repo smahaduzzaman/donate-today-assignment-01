@@ -147,12 +147,12 @@ header:after {
 }
 
 .header-logo a img {
-    width: 25%;
-    height: auto;
-    position: relative;
-    margin-top: 35px;
-    border-radius: 30px;
+    width: 330px;
+    display: inline;
+    margin-top: 3.5vh;
     z-index: -1;
+    position: relative;
+    padding-left: 20px;
 }
 
 .header-logo h1 {
@@ -160,9 +160,9 @@ header:after {
     display: inline;
     font-size: 30px;
     font-weight: 500;
-    margin-top: 125px;
+    margin-top: 18vh;
     position: absolute;
-    margin-left: -240px;
+    margin-left: -235px;
     z-index: 1;
 }
 
